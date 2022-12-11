@@ -1,0 +1,25 @@
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+
+/* no scroll */
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* change distance of scroll */
